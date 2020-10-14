@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CV Jakša Tomović 06/2019 %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+%Layout
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=0.75cm,bottom=0.75cm,footskip=2\baselineskip}
+
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+%Colors
+
+\definecolor{accent}{HTML}{000e17}
+\definecolor{heading}{HTML}{000e17}
+\definecolor{emphasis}{HTML}{696969}
+\definecolor{body}{HTML}{01415f}
+
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{emphasis}
+\colorlet{body}{body}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%
+
+\begin{document}
+\name{Raul G. Martinez}
+\tagline{}
+%\photo{2.5cm}{BrunoAlves}
+\personalinfo{
+    %\printinfo{\faBirthdayCake}{Aug 10th, 1994}
+    \email{gio.mtz3@gmail.com}
+    \phone{+1 619-734-6231}
+%    \mailaddress{SR Njemačke 6, 10000}
+    \location{San Diego, CA}
+    \linkedin{raul-giovanny-martinez-688b1bb4}
+    %\homepage{x}
+    \github{raulgiovannymartinez}
+}
+
+%
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[page1sidebar]{Work Experience}
+
+%%%%%%%%%%%%%
+%Experience 1
+%%%%%%%%%%%%%
+
+\cvevent{Integration Research Associate 2, Illumina}{}{January 2019 -- Present}{San Diego, CA}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Executed integration and systems support for Next-Generation Sequencing (NGS) platforms along different stages of product development.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Created data pipelines (with both R and Python) for aggregation, analysis, and visualization (including Dashboards) of NGS instrument data including primary/secondary metrics and diagnostic logs.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Developed algorithms for image processing, manipulation, and transformation using python libraries (NumPy, SciPy, Scikit-Learn, PIL).}
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%
+%Experience 1.5
+%%%%%%%%%%%%%
+
+\cvevent{Integration Research Associate 1, Illumina}{}{July 2018 -- December 2018}{San Diego, CA}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Collaborated cross-functionally to move forward new integration testing plans (optics,hardware,software, and chemistry components) and Design of Experiments (DOEs) for critical parameter analysis.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Implemented data collection strategies with QC targets for NGS instruments in order to monitor optical performance across the fleet over time.}
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%
+%Experience 2
+%%%%%%%%%%%%%
+
+\cvevent{Pharma Technical Development Intern, Genentech}{}{February 2018 -- July 2018}{South San Francisco, CA}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Contributed with the virology group on process validation and viral clearance studies for the production of therapeutic monoclonal antibodies.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Investigated virus titers by implementing DOEs, cell culture, infectivity assays, qPCR, and virus purification by following GLP and GDP standards.}
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%
+%Experience 3
+%%%%%%%%%%%%%
+
+\cvevent{Support Specialist, Dotmatics}{}{December 2017 -- February 2018}{San Diego, CA}
+
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Collaborated with Developers and Application Scientists to maintain active learning on software applications and scientific needs for the product suite.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Delivered solutions to a high number of customer inquiries by testing software UI and querying/modifying relational databases using SQL.}
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%
+%Experience 4
+%%%%%%%%%%%%%
+
+\cvevent{Data Analyst, Retrovirox}{}{May 2016 -- July 2017}{San Diego, CA}
+
+
+\begin{itemize}
+   \setlength{\itemindent}{0.5em}
+    \item   \small{Implemented fast turn-around data analysis and processing workflows for high-throughput screening (with FACS Flow Cytometry) of hundreds of novel small-molecules with antiviral and other activities.}
+    \setlength{\itemindent}{0.5em}
+    \item   \small{Facilitated data handling and documentation (i.e. aggregation, backup and management) for R\&D experiments with script automation and by authoring Standard Operating Procedures (SOPs).}
+    
+\end{itemize}
+
+\medskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection[page2sidebar]{Research and Projects}
+
+%%%%%%%%%%%%%
+%Project 1
+%%%%%%%%%%%%%
+
+\cvevent{Non-Invasive Ultrasonic Muscle Force Sensor}{}{September 2016 -- May 2017}{San Diego, CA}
+
+\begin{itemize}
+  \item \small{Developed a proof of concept breadboard prototype of a non-invasive ultrasonic muscle force sensor.}
+  \item Analyzed ultrasound wave signals pulsed with small piezoelectric transducers across agar gels with custom Matlab code for waveform feature extraction, LabVIEW simulations, and lab instruments (i.e. Function Gen, Oscilloscope).
+\end{itemize}
+
+%\divider
+
+%%%%%%%%%%%%%
+%Project 2
+%%%%%%%%%%%%%
+
+\cvevent{Identifying Oncogene-Specific Essential Genes}{}{January 2016 -- June 2016}{San Diego, CA}
+
+\begin{itemize}
+  \item \small{Evaluated a bioinformatics prototype, with R language statistical methods based on distributional entropies and kernel-based density estimators, to find drug sensitivity profiles that match patterns of gene expression.}
+  \item Listed genetic dependencies using mutual information analysis (over 10,000 variables) using the Broad Institute Cancer Cell Line Encyclopedia. 
+\end{itemize}
+
+%\divider
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Interests %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \cvsection{Interests}
+
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Electronics,
+%   25/9em/accent!60/Science,
+%   5/13em/accent!10/Movies,
+%   20/15em/accent!40/Sport,
+%   30/9em/accent/Technology,
+%   5/8em/accent!20/Literature
+% }
+
+
+%%New Page
+% \clearpage
+
+
+
+
+\end{document}
